@@ -1,0 +1,30 @@
+.carousel__container {
+margin: 5rem;
+}
+
+.slider {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); /* Center slider vertically */
+  width: 600px;
+  border: 2px solid blue;
+  height: 200px;
+}
+
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  column-gap: 1rem;
+  border: 2px solid springgreen;
+  pointer-events: none;
+}
+
+.carousel__card {
+  width: 300px;
+  height: 100%;
+  border: 2px solid red;
+}
