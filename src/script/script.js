@@ -1,5 +1,5 @@
-const slider = document.querySelector(".slider");
-const innerSlider = document.querySelector(".slider__inner");
+const slider = document.querySelector(".cst-carousel");
+const innerSlider = document.querySelector(".cst-carousel__inner");
 
 let pressed = false;
 let startx, x;
