@@ -8,27 +8,22 @@
   font-variation-settings:
     "slnt" 0;
 }
-
 .hero-text {
   font-family: "Inter", sans-serif !important;
   font-size: 6vh !important;
   color: white !important;
 }
-
 .precision {
   font-family: "Inter", sans-serif !important;
   font-size: 6vh !important;
   color: #ed4e3c;
 }
-
 .nav-item {
   margin: auto 12px !important;
 }
-
 .hcf-bp-center {
   background-position: center !important;
 }
-
 .hcf-bs-cover {
   background-size: cover !important;
 }
@@ -38,7 +33,6 @@
   --hcf-overlay-bg-color: var(--bs-black-rgb);
   position: relative;
 }
-
 .hcf-overlay::after {
   display: block;
   content: "";
@@ -50,18 +44,15 @@
   background-color: rgba(0, 0, 0, 0.4);
   z-index: 0;
 }
-
 .hcf-overlay > * {
   position: relative;
   z-index: 1;
 }
-
 .hcf-transform {
   transform: scale3d(1, 1, 1);
   transform-style: preserve-3d;
   transition: all 0.5s;
 }
-
 
 .colored-button {
   color: white !important;
