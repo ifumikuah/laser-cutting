@@ -1,14 +1,11 @@
-.carousel__container {
-margin: 5rem;
-}
-
 .slider {
   position: absolute;
   top: 50%;
   transform: translateY(-50%); /* Center slider vertically */
-  width: 600px;
+  width: 300px;
   border: 2px solid blue;
   height: 200px;
+  overflow: hidden;
 }
 
 .slider__inner {

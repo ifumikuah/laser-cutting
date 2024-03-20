@@ -4,16 +4,41 @@ const innerSlider = document.querySelector(".slider__inner");
 let pressed = false;
 let startx, x;
 
-slider.addEventListener("mousedown", (e) => {
+slider.addEventListener("mousedown", (e) => mouseDown(e));
+window.addEventListener("mouseup", () => mouseUp());
+slider.addEventListener("mousemove", (e) => mouseMove(e));
+
+slider.addEventListener("touchstart", (e) => {
+  const bcr = e.target.getBoundingClientRect();
+  const offsetX = e.targetTouches[0].clientX - bcr.x;
+
+  pressed = true;
+  startx = offsetX - innerSlider.offsetLeft;
+});
+window.addEventListener("touchend", () => mouseUp());
+slider.addEventListener("touchmove", (e) => {
+  const bcr = e.target.getBoundingClientRect();
+
+  if (!pressed) return;
+  e.preventDefault();
+
+  x = e.targetTouches[0].clientX - bcr.x;
+  innerSlider.style.left = `${x - startx}px`;
+
+  sliderBoundaries()
+});
+
+const mouseDown = (e) => {
+
   pressed = true;
   startx = e.offsetX - innerSlider.offsetLeft;
-});
+}
 
-window.addEventListener("mouseup", (e) => {
+const mouseUp = () => {
   pressed = false;
-});
+}
 
-slider.addEventListener("mousemove", (e) => {
+const mouseMove = (e) => {
   if (!pressed) return;
   e.preventDefault();
 
@@ -21,7 +46,7 @@ slider.addEventListener("mousemove", (e) => {
   innerSlider.style.left = `${x - startx}px`;
 
   sliderBoundaries()
-});
+}
 
 const sliderBoundaries = () => {
   let outer = slider.getBoundingClientRect();
