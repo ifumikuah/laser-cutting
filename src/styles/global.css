@@ -14,6 +14,7 @@
 :root {
   --bs-font-sans-serif: var(--cst-base-font-family);
   --bs-primary: var(--cst-color-vermillion);
+  --bs-primary-rgb: 237, 78, 60;
   --bs-link-color-rgb: 237, 78, 60;
   --bs-link-hover-color-rgb: 136, 41, 31;
   --bs-body-color: #000;
