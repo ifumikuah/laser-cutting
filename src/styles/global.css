@@ -325,3 +325,12 @@ img {
   }
 }
 
+@media (max-width: 992px) {
+  .borderlined{
+    border-bottom: 2px solid black;
+  }
+  .contact-button {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+}
