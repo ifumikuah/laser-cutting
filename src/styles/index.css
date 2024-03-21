@@ -23,6 +23,7 @@
   font-size: 6vh !important;
   color: white !important;
 }
+
 .active {
   color: #ed4e3c !important;
 }
@@ -182,4 +183,100 @@
   .cst-carousel__card {
     width: 480px;
   }
+}
+#contributors {
+  margin-top: 0 !important;
+  padding-top: 6vh !important;
+  padding-bottom: 6vh !important;
+}
+.contributor-text {
+  font-family: "Inter", sans-serif !important;
+  font-size: 6vh !important;
+  justify-content: center !important;
+  color: #ed4e3c !important;
+}
+.contributors-alt-text {
+  font-family: "Inter", sans-serif !important;
+  font-size: 1vh !important;
+  justify-content: center !important;
+}
+.card {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
+  transition: transform 1s !important;
+  border: none;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: 400ms ease-in-out !important;
+}
+.card-img-top {
+  object-fit: contain;
+  max-height: 45vh;;
+  width: 100%;
+  height: auto;
+}
+.github{
+  margin-right: .25vw;
+  margin-top: .5vh;
+  padding: .8vh .8vw;
+  color: white;
+  background-color: #2b3137; 
+  transition: transform 1s !important;
+}
+.github:hover {
+  color: rgb(221, 221, 221);
+  background-color: #24292e;
+  transition: 400ms ease-in-out !important
+}
+.linkedin{
+  margin-right: .25vw;
+  margin-top: .5vh;
+  padding: .8vh .8vw;
+  color: white;
+  background-color: #00a0dc; 
+  transition: transform 1s !important;
+}
+
+.linkedin:hover{
+  color: rgb(221, 221, 221);
+  background-color: #0077b5;
+  transition: 400ms ease-in-out !important;
+}
+
+.website {
+  margin-right: .25vw;
+  margin-top: .5vh;
+  padding: .8vh .8vw;
+  color: white;
+  background-color: #E36414; 
+  transition: transform 1s !important;
+}
+.website:hover {
+  color: rgb(221, 221, 221);
+  background-color: #a34b14;
+  transition: 400ms ease-in-out !important;
+}
+.fa-html5 {
+  color: #e34c26 !important;
+}
+.fa-css3-alt {
+  color: #264de4 ;
+}
+
+.fa-js {
+  color: #F0DB4F;
+}
+
+.fa-bootstrap {
+  color: #805ab9;
+}
+.fa-git {
+  color: #F1502F;
+}
+.fa-ubuntu {
+  color: #E95420;
 }
