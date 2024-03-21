@@ -110,7 +110,6 @@
   transform: scale(1.2);
 }
  /***** End Buttons Animation and customisation - Michael Panica *****/
-/* Michael Panica End of CSS Modifications */
 
 .cst-carousel {
   height: 320px;
@@ -173,7 +172,12 @@
   height: 38px;
   width: 38px;
 }
-
+.testimonial-contact {
+  background-color: #fff !important;
+  color: #e34c26 !important;
+  padding: 1.5vh 2vw;
+  font-size: 2vh;
+}
 @media screen and (min-width: 768px) {
   .testimonial {
     display: flex;
