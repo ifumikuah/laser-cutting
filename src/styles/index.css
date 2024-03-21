@@ -222,7 +222,7 @@
 .github{
   margin-right: .25vw;
   margin-top: .5vh;
-  padding: .8vh .8vw;
+  padding: .8vh .3vw;
   color: white;
   background-color: #2b3137; 
   transition: transform 1s !important;
@@ -235,7 +235,7 @@
 .linkedin{
   margin-right: .25vw;
   margin-top: .5vh;
-  padding: .8vh .8vw;
+  padding: .8vh .3vw;
   color: white;
   background-color: #00a0dc; 
   transition: transform 1s !important;
@@ -250,7 +250,7 @@
 .website {
   margin-right: .25vw;
   margin-top: .5vh;
-  padding: .8vh .8vw;
+  padding: .8vh .3vw;
   color: white;
   background-color: #E36414; 
   transition: transform 1s !important;
@@ -258,6 +258,19 @@
 .website:hover {
   color: rgb(221, 221, 221);
   background-color: #a34b14;
+  transition: 400ms ease-in-out !important;
+}
+.behance {
+  margin-right: .25vw;
+  margin-top: .5vh;
+  padding: .8vh .3vw;
+  color: white;
+  background-color: #0067ff; 
+  transition: transform 1s !important;
+}
+.behance:hover {
+  color: rgb(221, 221, 221);
+  background-color: #004bbb;
   transition: 400ms ease-in-out !important;
 }
 .fa-html5 {
@@ -279,4 +292,7 @@
 }
 .fa-ubuntu {
   color: #E95420;
+}
+.fa-behance {
+  color: #131418;
 }
