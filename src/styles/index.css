@@ -1,3 +1,4 @@
+
 .cst-carousel {
   height: 320px;
   overflow: hidden;
@@ -61,6 +62,7 @@
 }
 
 @media screen and (min-width: 768px) {
+  
   .testimonial {
     display: flex;
   }
@@ -77,3 +79,4 @@
     width: 480px;
   }
 }
+
