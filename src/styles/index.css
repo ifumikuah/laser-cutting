@@ -1,3 +1,4 @@
+
 /* Michael Panica Start of CSS Modifications */
 /***** Navbar - Michael Panica *****/ 
 
@@ -111,6 +112,7 @@
 }
  /***** End Buttons Animation and customisation - Michael Panica *****/
 
+
 .cst-carousel {
   height: 320px;
   overflow: hidden;
@@ -179,6 +181,7 @@
   font-size: 2vh;
 }
 @media screen and (min-width: 768px) {
+  
   .testimonial {
     display: flex;
   }
@@ -195,6 +198,7 @@
     width: 480px;
   }
 }
+
 /***** Cards Section - Michael Panica *****/ 
 
 #contributors {
@@ -315,3 +319,4 @@
   color: #131418;
 }
  /***** End FontAwesome Icons Customisation *****/
+
