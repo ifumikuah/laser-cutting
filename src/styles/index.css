@@ -2,6 +2,13 @@
 /* Michael Panica Start of CSS Modifications */
 /***** Navbar - Michael Panica *****/ 
 
+/* Sticky Nav - Step */
+.navbar{
+  position: sticky !important;
+  top: 0;
+  z-index: 1000;
+}
+
 .nav-link, .navbar-brand{
   font-family: "Inter", sans-serif !important; 
   font-optical-sizing: auto;
