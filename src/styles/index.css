@@ -224,7 +224,7 @@
   font-size: 1vh !important;
   justify-content: center !important;
 }
-.card {
+#contributors .card {
   box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 29px 0px;
   transition: transform 1s !important;
   border: none;
@@ -232,6 +232,7 @@
   margin-bottom: 5vh;
   margin-left: 2vh;
   margin-right: 2vh;
+  height: 100%;
 }
 .card:hover {
   transform: scale(1.05);
@@ -326,4 +327,3 @@
   color: #131418;
 }
  /***** End FontAwesome Icons Customisation *****/
-
