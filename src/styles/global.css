@@ -340,18 +340,11 @@ img {
 
 
 @media (min-width: 500px) and (max-width: 992px) {
-  .card {
-    text-align: center;
+  .custom-card {
     height: 100vh;
   }
 
-  .card-img-top {
-    margin: 0 auto;
-    max-width: 50%;
-    display: block;
-  }
-
-  .social-links{
+  .custom-card-img-top {
     margin: 0 auto;
     max-width: 50%;
     display: block;
@@ -359,18 +352,11 @@ img {
 }
 
 @media (min-width: 360px) and (max-width: 500px) {
-  .card {
-    text-align: center;
+  .custom-card {
     height: 100vh;
   }
 
-  .card-img-top {
-    margin: 0 auto;
-    max-width: 80%;
-    display: block;
-  }
-
-  .social-links{
+  .custom-card-img-top{
     margin: 0 auto;
     max-width: 80%;
     display: block;
