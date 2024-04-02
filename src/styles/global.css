@@ -334,3 +334,45 @@ img {
     margin-bottom: 3vh;
   }
 }
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 992px) {
+  .card {
+    text-align: center;
+    height: 100vh;
+  }
+
+  .card-img-top {
+    margin: 0 auto;
+    max-width: 50%;
+    display: block;
+  }
+
+  .social-links{
+    margin: 0 auto;
+    max-width: 50%;
+    display: block;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+  .card {
+    text-align: center;
+    height: 100vh;
+  }
+
+  .card-img-top {
+    margin: 0 auto;
+    max-width: 80%;
+    display: block;
+  }
+
+  .social-links{
+    margin: 0 auto;
+    max-width: 80%;
+    display: block;
+  }
+}
