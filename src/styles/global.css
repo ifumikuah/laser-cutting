@@ -334,3 +334,31 @@ img {
     margin-bottom: 3vh;
   }
 }
+
+
+
+
+
+@media (min-width: 500px) and (max-width: 992px) {
+  .custom-card {
+    height: 100vh;
+  }
+
+  .custom-card-img-top {
+    margin: 0 auto;
+    max-width: 50%;
+    display: block;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 500px) {
+  .custom-card {
+    height: 100vh;
+  }
+
+  .custom-card-img-top{
+    margin: 0 auto;
+    max-width: 80%;
+    display: block;
+  }
+}
