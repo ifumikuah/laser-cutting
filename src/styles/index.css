@@ -110,12 +110,18 @@
     transition: transform 1s !important;
     margin-left: 1vw !important;
 }
-
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
 .default-button:hover {
     transition: 400ms ease-in-out !important;
     transform: scale(1.2);
 }
 /***** End Buttons Animation and customisation - Michael Panica *****/
+/***** Contact Form Customisation - Michael Panica *****/
+
+/***** End of Contact Form Customisation - Michael Panica*****/
 /* Map Section */
 .map {
     padding-top: 5vh;
@@ -257,6 +263,11 @@
     width: auto;
     height: 400px;
 }
+.card-img-contributors {
+    object-fit: contain !important;
+    width: auto;
+    height: 450px;
+}
 #gallery {
     margin-top: 6vh !important;
     margin-bottom: 6vh !important;
@@ -332,7 +343,9 @@
 }
 /***** End Cards Websites and links - Michael Panica *****/
 /***** FontAwesome Icons Customisation *****/
-
+.fa-react {
+    color: #61dbfb;
+}
 .fa-html5 {
     color: #e34c26 !important;
 }
